@@ -10,12 +10,12 @@ class Header extends Component{
     return (
         <div>
             <div className={classes.leftSection}>
-              <NavLink to="/">
+              <NavLink to="/my-location">
                 <Heading type="default">Locations</Heading>
               </NavLink>
             </div>
             <div className={classes.rightSection}>
-              <NavLink to="/add-location">
+              <NavLink to="/my-location/add-location">
                 <Button type="generalRound">+ Add Location</Button>
               </NavLink>
             </div>
