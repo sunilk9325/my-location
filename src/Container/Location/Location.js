@@ -11,7 +11,7 @@ class Location extends Component{
 
     return (
       <div>
-        <BrowserRouter basename="/my-location"/>
+        <BrowserRouter basename="my-location">
           <Header />
           <Switch>
               <Route path="/" exact component={List}/>
