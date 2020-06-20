@@ -1,0 +1,15 @@
+.leftSection{
+    float: left;
+}
+
+.rightSection{
+    float: right;
+}
+
+.clearBoth{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}

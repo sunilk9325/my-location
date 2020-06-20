@@ -1,0 +1,21 @@
+.optionLeft{
+    padding: 5px 15px;
+    border: 1px solid #E5E4E3;
+    background: #E5E4E3;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.optionRight{
+    padding: 5px 10px;
+    border: 1px solid #E5E4E3;
+    background: #E5E4E3;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.active{
+    border: 1px solid #305b83;
+    background: #305b83;
+    color: white;
+}   

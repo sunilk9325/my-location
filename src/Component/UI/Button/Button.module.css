@@ -1,0 +1,57 @@
+.generalRound{
+    background: #2B5D8F;
+    border: 1px solid #2B5D8F;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.general{
+    background: #2A6390;
+    border: 1px solid #2A6390;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    width: 40px;
+}
+
+.danger{
+    background: #FA695E;
+    border: 1px solid #FA695E;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    width: 40px;
+}
+
+.offWhite{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 6px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+}
+
+.tags{
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 2px 5px;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    width: 40px;
+    overflow: hidden;
+    margin-right: 2px;
+    background: teal;
+    color: white;
+}

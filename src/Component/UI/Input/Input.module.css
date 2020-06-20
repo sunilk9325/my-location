@@ -1,0 +1,42 @@
+.label{
+    color: gray;
+    font-size: 13px;
+    margin: 10px 0px;
+}
+
+.input{
+    border: 0px;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    width: 97%;
+}
+
+.select{
+    border: 0px;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+    width: 97%;
+}
+
+.input:focus{
+    border: 0px !important;
+    border-bottom: 2px solid black !important;
+    outline: none !important;
+    background: white !important;
+}
+
+.select:focus{
+    border: 0px;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+.input:invalid{
+    border: 0px !important;
+    border-bottom: 2px solid red !important;
+    background: #f3d3d1 !important;
+}

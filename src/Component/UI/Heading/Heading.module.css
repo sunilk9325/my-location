@@ -1,0 +1,21 @@
+.default{
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 0px;
+}
+
+.tableHead{
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 5px;
+  text-align: left;
+}
+
+.tableRow{
+  color: gray;
+  font-size: 13px;
+  padding: 10px 5px;
+  text-align: left;
+}

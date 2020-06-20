@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    padding: 15px;
+    color: gray;
+}
+
+.borderBottom{
+    border-bottom: 1px solid;
+}
+
+.adjacent{
+    float: left;
+    margin-right: 20px; 
+}
+
+.sepration{
+    float: left;
+    margin-right: 30px; 
+}
+
+.dropMenu{
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
+
+select{
+    border: 0px;
+    color: gray;
+    width: 50px;
+}
+
+.img_icon{
+    width: 12px
+}
+
+select:focus{
+    border: 0px;
+    outline: none;
+}
