@@ -78,9 +78,6 @@ class FacilityTime extends Component{
               <div className={classes.colRight}>
                 <Button type="danger" onClick={this.redirect}>Cancel</Button>
               </div>
-              <div className={classes.colRight}>
-                <Button type="danger" onClick={this.showState}>showstate</Button>
-              </div>
             </div>
 
         </CentreBlock>
