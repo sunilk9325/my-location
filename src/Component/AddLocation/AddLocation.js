@@ -50,14 +50,14 @@ class AddLocation extends Component{
   setFacilityTime = evt => {
     console.log(" -- ", this.props)
     if(this.props.match.params.id && this.props.match.params.id !== 'redirect'){
-      this.props.history.push(`${this.props.match.url}/update-facility-time/${this.props.match.params.id}`)
+      this.props.history.push(`/update-facility-time/${this.props.match.params.id}`)
     }else{
-      this.props.history.push(`${this.props.match.url}/facility-time`)
+      this.props.history.push(`/facility-time`)
     }
   }
 
   redirect = () => {
-    this.props.history.push(`${this.props.match.url}/`)
+    this.props.history.push(`/`)
   }
 
   dataModification = () => {
