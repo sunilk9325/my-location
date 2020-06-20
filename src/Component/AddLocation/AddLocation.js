@@ -48,7 +48,6 @@ class AddLocation extends Component{
   }
 
   setFacilityTime = evt => {
-    console.log(" -- ", this.props)
     if(this.props.match.params.id && this.props.match.params.id !== 'redirect'){
       this.props.history.push(`/update-facility-time/${this.props.match.params.id}`)
     }else{
