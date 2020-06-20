@@ -14,12 +14,12 @@ class Location extends Component{
         <BrowserRouter>
           <Header />
           <Switch>
-              <Route path="my-location/" exact component={List}/>
-              <Route path="my-location/add-location" exact component={AddLocation}/>
-              <Route path="my-location/add-location/:id" exact component={AddLocation}/>
-              <Route path="my-location/update-location/:id" exact component={AddLocation}/>
-              <Route path="my-location/facility-time" exact component={FacilityTime}/>
-              <Route path="my-location/update-facility-time/:id" exact component={FacilityTime}/>
+              <Route path="/my-location/" exact component={List}/>
+              <Route path="/my-location/add-location" exact component={AddLocation}/>
+              <Route path="/my-location/add-location/:id" exact component={AddLocation}/>
+              <Route path="/my-location/update-location/:id" exact component={AddLocation}/>
+              <Route path="/my-location/facility-time" exact component={FacilityTime}/>
+              <Route path="/my-location/update-facility-time/:id" exact component={FacilityTime}/>
           </Switch>
         </BrowserRouter>
       </div>
